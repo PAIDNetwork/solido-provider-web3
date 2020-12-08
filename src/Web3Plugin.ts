@@ -17,7 +17,7 @@ import { SolidoTopic } from '@decent-bet/solido';
 export class Web3Plugin extends SolidoProvider implements SolidoContract {
   private web3: Web3;
   public network: string;
-  private instance: any;
+  public instance: any;
   public defaultAccount: string;
   public address: string;
   private privateKey: string;

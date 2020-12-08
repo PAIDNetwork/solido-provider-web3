@@ -5,7 +5,7 @@ import { SolidoContract, SolidoSigner } from '@decent-bet/solido';
 export declare class Web3Plugin extends SolidoProvider implements SolidoContract {
     private web3;
     network: string;
-    private instance;
+    instance: any;
     defaultAccount: string;
     address: string;
     private privateKey;
