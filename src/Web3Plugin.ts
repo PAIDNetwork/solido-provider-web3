@@ -29,7 +29,7 @@ export class Web3Plugin extends SolidoProvider implements SolidoContract {
   onReady<T>(settings: T & Web3Settings) {
     const { privateKey, web3, network, defaultAccount } = settings;
     this.privateKey = privateKey;
-    this.web3 = web3;
+    this.web3 = web3;    
     this.network = network;
     this.defaultAccount = defaultAccount;
     this.connect();
