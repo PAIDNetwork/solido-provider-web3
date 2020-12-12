@@ -1,4 +1,7 @@
 // eslint-disable-next-line spaced-comment
+import { Observable, Subject } from 'rxjs';
+import { pluck } from 'rxjs/operators';
+import { Contract } from 'web3-eth-contract';
 import Web3 from 'web3';
 import {
   IMethodOrEventCall,
@@ -11,6 +14,8 @@ import { Web3Settings } from './Web3Settings';
 import { SolidoProvider } from '@decent-bet/solido';
 import { SolidoContract, SolidoSigner } from '@decent-bet/solido';
 import { SolidoTopic } from '@decent-bet/solido';
+import { UncheckedJsonRpcSigner } from './UncheckedSigner';
+import { Wallet } from 'xdvplatform-wallet'
 /**
  * Web3Plugin provider for Solido
  */

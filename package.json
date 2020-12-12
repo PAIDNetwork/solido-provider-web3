@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/decent-bet/solido-provider-web3#readme",
   "devDependencies": {
-    "@decent-bet/solido": "1.0.0",
+    "@decent-bet/solido": "^1.0.0",
     "@types/jasmine": "^3.3.12",
     "@types/node": "^11.12.0",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
@@ -37,7 +37,8 @@
   },
   "dependencies": {
     "rxjs": "^6.5.2",
-    "web3": "^1.3.0"
+    "web3": "^1.3.0",
+    "xdvplatform-wallet": "^3.0.8"
   },
   "peerDependencies": {
     "@decent-bet/solido": "1.0.0"
